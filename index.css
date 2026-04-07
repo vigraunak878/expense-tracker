@@ -172,7 +172,7 @@ p {
 #button {
   font-weight: 550;
   font-size:100px;
-  width: 805px;
+  width: 792px;
   height: 48px;
   margin: 10px;
   border-radius: 10px;
@@ -180,7 +180,6 @@ p {
   font-size: 1.2em;
   margin-top: 30px;
   border:0;
-  /* border: 2px solid black; */
   background: #c7f2bd;
   background: linear-gradient(
     90deg,
