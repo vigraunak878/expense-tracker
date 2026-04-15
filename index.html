@@ -7,39 +7,39 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <div id="container">
+    <div class="container">
         <h1>Expense Tracker</h1>
-        <div id="midbox">
-            <div id="bal">
-            <h2 id="">Your Balance</h2>
-            <h1 class="in" id="Balance">&#8377 0.00</h1>
+        <div class="midbox">
+            <div class="balance-box">
+                <h2>Your Balance</h2>
+                <h2 class="balance-amount rupee" id="Balance">&#8377 0.00</h2>
             </div>
             <div class="income box">
-                <h3>Income</h3>
-                <h1 class="inex" id="Income">&#8377 0.00</h1>
+                <h2>Income</h2>
+                <h2 class="rupee"  id="Income">&#8377 0.00</h2>
             </div>
             <div class="expense box">
-                <h3>Expense</h3>
-                <h1 class="inex" id="Expense">&#8377 0.00</h1>
+                <h2>Expense</h2>
+                <h2 id="Expense" class="rupee">&#8377 0.00</h2>
             </div>
         </div>
-        <div id="bottombox">
+        <div class="bottombox">
             <div class=" left boxl" id="Transactions">
                 <h2>Transactions</h2>
             </div>
             <div class="right boxl">
                 <h2>Add Transaction</h2>
                 <form>
-                    <label for="type">Entry Type: </label>
+                    <label for="type" id="entry">Entry Type: </label>
                     <select id="type">
                         <option value="income">Income</option>
                         <option value="expense">Expense</option>
                     </select>
                     <br><br>
                     <label for="description">Description</label>
-                    <input class="inputfocus" type="text" id="description" placeholder="Enter description" required>
+                    <input class="input" type="text" id="description" placeholder="Enter description" required>
                     <label for="amount">Amount</label>
-                    <input class="inputfocus"  type="number" id="amount" placeholder="Enter amount" required>
+                    <input class="input"  type="number" id="amount" placeholder="Enter amount" required>
                     <button type="submit" id="button">Add Transaction</button>
                 </form>
             </div>
